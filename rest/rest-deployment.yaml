@@ -1,0 +1,29 @@
+##
+## You provide this
+##
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expense-rest-server
+  labels:
+    app: expense-rest-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: expense-rest-server
+  template:
+    metadata:
+      labels:
+        app: expense-rest-server
+    spec:
+      containers:
+      - name: expense-rest-server
+        image: arpitaambavane89/expense-rest-server:v1
+        env:
+        - name: RABBITMQ_HOST
+          value: rabbitmq
+        resources:
+          limits:
+            cpu: 100m  
+            memory: 400Mi

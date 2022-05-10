@@ -1,0 +1,63 @@
+ <mat-toolbar color="primary">
+  Instagram Caption and Tag Generator
+</mat-toolbar> 
+
+
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4" >
+        <mat-card-header>
+          <mat-card-title>Insta Hash Tag Generator</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/hash.jpeg">
+        <mat-card-content>
+          <p>
+            This tool automatically adds hashtags to your Instagram posts. It is an easy way for you to drive more likes, followers and engagement with no extra effort.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="onButton1()">Use this tool</button>
+         
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4" >
+        <mat-card-header>
+          <mat-card-title>Insta Caption Generator</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/caption.jpeg">
+        <mat-card-content>
+          <p>
+            Find captions for every occasion and mood. From selfie captions to adventure captions to describibg your food with some delicious words, we have a caption for everything.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="onButton2()">Use this tool</button>
+         
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4" >
+        <mat-card-header>
+          <mat-card-title> Explore Hashtags</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/tags.png">
+        <mat-card-content>
+          <p>
+           Explore mostly used hashtags.<br><br><br>
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="onButton3()">Use this tool</button>
+         
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  </div> 
+  <router-outlet></router-outlet>
+  

@@ -1,0 +1,21 @@
+.content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    width: 200px;
+    height: 200px;
+}
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 14px;
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+      }

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+/* Float four columns side by side */
+.column, .column1 {
+  float: left;
+  width: 25%;
+  padding: 0 16px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row, .row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after, .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column, .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+   
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(60, 191, 193);
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<br>
+<h1>&nbsp;&nbsp;Top Hash Tags for Travel</h1>
+<p></p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+    <p></p>
+      <h3>#travel</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <p></p>
+      <h3>#photography</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <p></p>
+      <h3>#Photooftheday</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <p></p>
+      <h3>#nature</h3>
+      <p></p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row1">
+    <div class="column1">
+      <div class="card">
+      <p></p>
+        <h3>#travelgram</h3>
+        <p></p>
+      </div>
+    </div>
+  
+    <div class="column1">
+      <div class="card">
+          <p></p>
+        <h3>#naturephotography</h3>
+        <p></p>
+      </div>
+    </div>
+    
+    <div class="column1">
+      <div class="card">
+          <p></p>
+        <h3>#beautiful</h3>
+        <p></p>
+      </div>
+    </div>
+    
+    <div class="column1">
+      <div class="card">
+          <p></p>
+        <h3>#picoftheday</h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

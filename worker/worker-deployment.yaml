@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expense-worker-server
+  labels:
+    app: expense-worker-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: expense-worker-server
+  template:
+    metadata:
+      labels:
+        app: expense-worker-server
+    spec:
+      containers:
+      - name: expense-worker-server
+        image: arpitaambavane89/expense-worker-server:v1
+        env:
+        - name: RABBITMQ_HOST
+          value: rabbitmq
+        resources:
+          limits:
+            cpu: 100m  
+            memory: 400Mi
