@@ -4,6 +4,10 @@
 
 Instagram is a fast-moving platform, so you need to make your content easy to discover. The best hashtags for Instagram, boost your post impressions by 2-3 times, making them viewable on the Explore section. Feel exhausted from guessing hashtags each time you post on Facebook, Twitter, Youtube, or Instagram? Embrace the power of our AI-based searcher — generate hashtags for social media automatically. This hashtag generator for Instagram provides you with relevant hashtags by analyzing your photo.
 
+<hr>
+<b>Find the ppt at https://docs.google.com/presentation/d/1vCNBd0UbghJtzwmQ9lbxqQcpvSHb-gX-zeUHvOIvEqc/edit </b>
+<hr>
+
 <br>
 
 <h2> Software Architecture Diagram </h2>
